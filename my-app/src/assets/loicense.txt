@@ -1,0 +1,18 @@
+Images: 
+    images/chimp.jpg:
+        Source:  
+            https://stocksnap.io/photo/two-brown-LCCKKNQ1XN
+        Artist: 
+            https://stocksnap.io/author/sasint sasint
+        License: 
+            CC0
+
+sound:
+    sound/monkey-sounds.zip:
+        Source:
+            https://opengameart.org/content/monkey-sounds
+        Artist:
+            https://stendhalgame.org/
+            https://opengameart.org/users/antumdeluge
+        License:
+            CC0
