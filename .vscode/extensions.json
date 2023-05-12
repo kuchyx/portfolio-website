@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "wix.vscode-import-cost",
+    "pkief.material-icon-theme",
+    "ms-vscode-remote.remote-ssh",
+    "angular.ng-template",
+    "aaron-bond.better-comments",
+    "wesbos.theme-cobalt2",
+    "streetsidesoftware.code-spell-checker",
+    "donjayamanne.githistory",
+    "kisstkondoros.vscode-gutter-preview"
+  ]
+}
