@@ -1,1 +1,3 @@
-<img (click)="chimpNoise()" src="../assets/images/chimp.jpg" class="chimps" alt="Cool Chimps">
+<button (click)="turnOnChimps()"> Click for chimps </button>
+<button (click)="turnOnChimps()"> Click for quiz </button>
+<app-chimps *ngIf="coolChimps"> </app-chimps>

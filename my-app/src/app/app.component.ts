@@ -6,25 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  coolChimps = false;
+  quiz = true;
 
-  soundPath = `../assets/sound/`
-
-  monkeyMap: string[] = [
-    this.soundPath + `monkey-1.wav`,
-    this.soundPath + `monkey-2.wav`,
-    this.soundPath + `monkey-3.wav`,
-  ]
-
-  getRandomInt(max: number) {
-    return Math.floor(Math.random() * max);
+  turnOnChimps() {
+    this.coolChimps = !this.coolChimps;
   }
 
-  chimpNoise() {
-    const monkeyNumber = this.getRandomInt(3);
-    let audio = new Audio();
-    audio.src = this.monkeyMap[monkeyNumber];
-    console.log(audio.src);
-    audio.load();
-    audio.play();
+  turnOnQuiz() {
+    this.quiz = !this.quiz
   }
 }
